@@ -1,0 +1,28 @@
+.logo {
+    width: 150px;
+    line-height: 150px;
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background:rgba(220,0,27,1);
+    padding: 0 20px;
+}
+
+.search-bar {
+    width: 300px;
+}
+
+.text-white {
+    color:white;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}

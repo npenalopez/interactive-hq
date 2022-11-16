@@ -1,0 +1,57 @@
+.legend-item {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 0.375rem;
+}
+
+.legend-item:hover {
+    transform: scale(1.2);
+}
+
+.americas {
+    background-color:rgba(30,60,85,0.3);
+    color: rgba(30,60,85,1);
+}
+
+.europe {
+    background-color:rgba(149,149,149,0.3);
+    color: rgba(149,149,149,1);
+}
+
+.africa {
+    background-color:rgba(191,171,56,0.3);
+    color: rgba(191,171,56,1);
+}
+
+.antarctica {
+    background-color:rgba(123,145,163,0.3);
+    color: rgba(123,145,163,1);
+}
+
+.asia {
+    background-color:rgba(137,189,130,0.3);
+    color: rgba(137,189,130,1);
+}
+
+.australia {
+    background-color:rgba(255,147,111,0.3);
+    color:  rgba(255,147,111,1);
+}
+
+.multi {
+    background-color:rgba(149,149,149,0.3);
+    color: rgba(149,149,149,1);
+}
+
+.video {
+    background-color:rgba(0,177,64,0.3);
+    color: rgba(0,177,64,1);
+}
+
+.red {
+    background-color:rgba(221,9,7,0.3);
+    color: rgba(221,9,7,1);
+}
