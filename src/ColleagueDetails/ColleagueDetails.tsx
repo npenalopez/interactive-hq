@@ -28,7 +28,7 @@ const ColleagueDetails = ({details}:ColleagueDetailsProps) => {
     return (
         <Card size={'small'} title={'Colleague details'} className={'min-200'}>
             <Meta
-                avatar={<Avatar src={details.pictureUrl}  className={'colleague-pic'}  />}
+                avatar={<Avatar src={process.env.PUBLIC_URL+details.pictureUrl}  className={'colleague-pic'}  />}
                 title={details.name}
                 description={<DetailedInfo />}
             />

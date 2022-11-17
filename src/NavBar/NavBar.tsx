@@ -18,10 +18,9 @@ interface option {
 
 interface NavBarProps {
     setDetails: React.Dispatch<React.SetStateAction<colleague>>;
-    highlight: (id:string) => void;
 }
 
-const NavBar = ({setDetails, highlight}:NavBarProps) => {
+const NavBar = ({setDetails}:NavBarProps) => {
     const onChange = (value:string) => {
         const colleague = colleagues.find((colleague) => colleague.id === value);
         if(colleague){
@@ -31,8 +30,8 @@ const NavBar = ({setDetails, highlight}:NavBarProps) => {
                 department:colleague.department,
                 pictureUrl:colleague.pictureUrl,
                 location: colleague.location,
+                blinkingItem: `blink${colleague.id}`,
             })
-            highlight(colleague.id);
         }
     }
 

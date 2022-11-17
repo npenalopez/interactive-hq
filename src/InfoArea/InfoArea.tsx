@@ -8,23 +8,18 @@ import {colleague} from "../App";
 interface InfoAreaProps {
     details: colleague;
     setDetails:  React.Dispatch<React.SetStateAction<colleague>>;
-    highlight: (id:string)=> void;
 }
-const InfoArea = ({details, setDetails, highlight}:InfoAreaProps) => {
 
-    const resetColleagueDetails = () => {
+const InfoArea = ({details, setDetails}:InfoAreaProps) => {
+    const getCommonArea = (id:string) => {
         setDetails({
             name: 'Name',
             position: 'Position',
             department:'Department',
             pictureUrl: '../pics/placeholder.png',
             location: 'Location',
-        })
-    }
-
-    const getCommonArea = (id:string) => {
-        highlight(id);
-        resetColleagueDetails();
+            blinkingItem: `blink${id} #${id}`,
+        });
     }
 
     return (

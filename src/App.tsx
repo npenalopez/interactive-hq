@@ -5,7 +5,6 @@ import {Content} from "antd/lib/layout/layout";
 import {ReactComponent as ComfoneFloorPlanSVG} from './comfone-hq.svg';
 import NavBar from "./NavBar/NavBar";
 import InfoArea from "./InfoArea/InfoArea";
-import $ from "jquery";
 
 export interface colleague {
     name: string;
@@ -13,6 +12,7 @@ export interface colleague {
     department: string;
     pictureUrl: string;
     location: string;
+    blinkingItem: string;
 }
 
 const App = () =>{
@@ -21,28 +21,17 @@ const App = () =>{
             name: 'Name',
             position: 'Position',
             department:'Department',
-            pictureUrl:'../pics/placeholder.png',
-            location: 'Location'
+            pictureUrl:process.env.PUBLIC_URL+'/pics/placeholder.png',
+            location: 'Location',
+            blinkingItem: '',
         });
-
-    const removeHighlight = () => {
-        // @ts-ignore
-        $.find('path').map((elem:any) => $(elem).removeClass('blink'));
-        // @ts-ignore
-        $.find('g').map((elem:any) => $(elem).removeClass('blink'));
-    }
-
-    const highlight = (id:string) => {
-        removeHighlight();
-        if(id){$(`#${id}`).addClass('blink');}
-    }
 
     return (
         <Layout className={'layout'}>
-            <NavBar setDetails={setDetails} highlight={highlight}/>
+            <NavBar setDetails={setDetails}/>
             <Content className={'container'}>
-                <ComfoneFloorPlanSVG />
-                <InfoArea details={details}  setDetails={setDetails} highlight={highlight}/>
+                <ComfoneFloorPlanSVG className={details.blinkingItem}/>
+                <InfoArea details={details}  setDetails={setDetails} />
             </Content>
         </Layout>
     );
