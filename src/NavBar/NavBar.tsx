@@ -93,6 +93,10 @@ const NavBar = ({setDetails, highlight}:NavBarProps) => {
             options: getColleaguesGroup('IP Engineering')
         },
         {
+            label: 'IP Engineering',
+            options: getColleaguesGroup('ICT Engineering')
+        },
+        {
             label: 'Products',
             options: getColleaguesGroup('Products')
         },
