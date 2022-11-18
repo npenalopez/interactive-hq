@@ -14,6 +14,7 @@ const InfoArea = ({details, setDetails}:InfoAreaProps) => {
     const getCommonArea = (id:string) => {
         createClass(`.blink${id} #${id}`,"animation: hideshow 2s ease infinite; -webkit-animation: hideshow 2s ease infinite;");
         setDetails({
+            input: undefined,
             name: 'Name',
             position: 'Position',
             department:'Department',

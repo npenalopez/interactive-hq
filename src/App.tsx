@@ -7,6 +7,7 @@ import NavBar from "./NavBar/NavBar";
 import InfoArea from "./InfoArea/InfoArea";
 
 export interface colleague {
+    input: string | undefined;
     name: string;
     position: string;
     department: string;
@@ -26,6 +27,7 @@ export const createClass = (name:string,rules:string) => {
 const App = () =>{
     const [details, setDetails] = useState<colleague>(
         {
+            input: undefined,
             name: 'Name',
             position: 'Position',
             department:'Department',
@@ -36,7 +38,7 @@ const App = () =>{
 
     return (
         <Layout className={'layout'}>
-            <NavBar setDetails={setDetails}/>
+            <NavBar details={details} setDetails={setDetails}/>
             <Content className={'container'}>
                 <ComfoneFloorPlanSVG className={details.blinkingItem}/>
                 <InfoArea details={details}  setDetails={setDetails} />

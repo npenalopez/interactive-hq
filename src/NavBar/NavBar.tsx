@@ -17,15 +17,17 @@ interface option {
 }
 
 interface NavBarProps {
+    details: colleague;
     setDetails: React.Dispatch<React.SetStateAction<colleague>>;
 }
 
-const NavBar = ({setDetails}:NavBarProps) => {
+const NavBar = ({details, setDetails}:NavBarProps) => {
     const onChange = (value:string) => {
         const colleague = colleagues.find((colleague) => colleague.id === value);
         if(colleague){
             createClass(`.blink${colleague.id} #${colleague.id}`,"animation: hideshow 2s ease infinite; -webkit-animation: hideshow 2s ease infinite;");
             setDetails({
+                input:colleague.name,
                 name: colleague.name,
                 position: colleague.position,
                 department:colleague.department,
@@ -127,6 +129,7 @@ const NavBar = ({setDetails}:NavBarProps) => {
             <Row gutter={5} justify={'space-evenly'}>
                 <Col span={10}>
                     <Select
+                        value={details.input}
                         className={'search-bar'}
                         options={options}
                         showSearch
