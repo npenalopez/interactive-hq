@@ -4,7 +4,7 @@ import Logo from '../img/logo.png';
 import React from "react";
 import './NavBar.css';
 import colleagues from '../colleagues.json';
-import {colleague} from "../App";
+import {colleague, createClass} from "../App";
 
 interface optionGroup {
     label: string;
@@ -24,6 +24,7 @@ const NavBar = ({setDetails}:NavBarProps) => {
     const onChange = (value:string) => {
         const colleague = colleagues.find((colleague) => colleague.id === value);
         if(colleague){
+            createClass(`.blink${colleague.id} #${colleague.id}`,"animation: hideshow 2s ease infinite; -webkit-animation: hideshow 2s ease infinite;");
             setDetails({
                 name: colleague.name,
                 position: colleague.position,
@@ -31,17 +32,13 @@ const NavBar = ({setDetails}:NavBarProps) => {
                 pictureUrl:colleague.pictureUrl,
                 location: colleague.location,
                 blinkingItem: `blink${colleague.id}`,
-            })
+            });
         }
     }
 
-    const onSearch = (input: string, option: optionGroup | undefined) => {
-        if(option){
-            return option.label.toString().toLowerCase().indexOf(input.toLowerCase()) >= 0;
-        }else {
-            return true;
-        }
-    }
+    const normalizeText = (text:string) => text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+    const onSearch = (input: string, option: optionGroup | undefined) => option ? normalizeText(option.label).indexOf(normalizeText(input)) >= 0 : true;
 
     const options:Array<optionGroup> = [];
 

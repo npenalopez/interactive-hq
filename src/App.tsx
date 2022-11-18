@@ -15,6 +15,14 @@ export interface colleague {
     blinkingItem: string;
 }
 
+export const createClass = (name:string,rules:string) => {
+    const style = document.createElement('style');
+    document.getElementsByTagName('head')[0].appendChild(style);
+    if(style.sheet){
+        style.sheet.insertRule(name+"{"+rules+"}",0);
+    }
+}
+
 const App = () =>{
     const [details, setDetails] = useState<colleague>(
         {

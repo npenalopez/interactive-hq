@@ -3,7 +3,7 @@ import ColleagueDetails from "../ColleagueDetails/ColleagueDetails";
 import Legend from "../Legend/Legend";
 import React from "react";
 import './InfoArea.css';
-import {colleague} from "../App";
+import {colleague, createClass} from "../App";
 
 interface InfoAreaProps {
     details: colleague;
@@ -12,6 +12,7 @@ interface InfoAreaProps {
 
 const InfoArea = ({details, setDetails}:InfoAreaProps) => {
     const getCommonArea = (id:string) => {
+        createClass(`.blink${id} #${id}`,"animation: hideshow 2s ease infinite; -webkit-animation: hideshow 2s ease infinite;");
         setDetails({
             name: 'Name',
             position: 'Position',
