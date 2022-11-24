@@ -120,7 +120,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path64576",
+    "id": "dr",
     "name": "David Roth",
     "position": "VP Sales Asia and Pacific",
     "department": "Sales",
@@ -261,6 +261,14 @@
     "position": "Senior Operations Engineer",
     "department": "IP Engineering",
     "pictureUrl": "/pics/ip-engineering/thilan-ekanayake.jpg",
+    "location": "Mingerstrasse 12, 3014 Bern"
+  },
+  {
+    "id": "path52740",
+    "name": "Adilson Gonçalves",
+    "position": "Senior Operations Engineer",
+    "department": "IP Engineering",
+    "pictureUrl": "/pics/ip-engineering/adilson-goncalves.jpg",
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
@@ -584,6 +592,14 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
+    "id": "es",
+    "name": "Eduardo Silva",
+    "position": "NOC Engineer",
+    "department": "Network Operation Centre",
+    "pictureUrl": "/pics/network-operation-centre/eduardo-silva.jpg",
+    "location": "Mingerstrasse 12, 3014 Bern"
+  },
+  {
     "id": "path32438",
     "name": "Karin Gerber",
     "position": "IPX Services Administrator",
@@ -720,6 +736,14 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
+    "id": "path75728",
+    "name": "Dimitrios Menounos",
+    "position": "Software Developer",
+    "department": "Software Development",
+    "pictureUrl": "/pics/software-development/dimitrios-menounos.jpg",
+    "location": "Mingerstrasse 12, 3014 Bern"
+  },
+  {
     "id": "path74884",
     "name": "Evgeny Solovei",
     "position": "Head of Service Delivery",
@@ -741,6 +765,14 @@
     "position": "Service Delivery Manager",
     "department": "Service Delivery",
     "pictureUrl": "/pics/service-delivery/amelie-nordstrom.jpg",
+    "location": "Mingerstrasse 12, 3014 Bern"
+  },
+  {
+    "id": "path74168",
+    "name": "Olga Legoshina",
+    "position": "Service Delivery Manager",
+    "department": "Service Delivery",
+    "pictureUrl": "/pics/service-delivery/olga-legoshina.jpg",
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
@@ -800,7 +832,6 @@
     "pictureUrl": "/pics/clearing-operations-backoffice/shayal-prasad.jpg",
     "location": ""
   },
-
   {
     "id": "sjm",
     "name": "Sylvia Junqueira de Melo",
@@ -831,7 +862,7 @@
     "position": "Back Office Executive",
     "department": "Senior IREG Engineer",
     "pictureUrl": "/pics/hubbing-operations/nemanja-bilbija.jpg",
-    "location": ""
+    "location": "Sarajevo, Bosnia and Herzegovina"
   },
   {
     "id": "lu",
