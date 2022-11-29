@@ -3,127 +3,17 @@ import {Header} from "antd/lib/layout/layout";
 import Logo from '../img/logo.png';
 import React from "react";
 import './NavBar.css';
-import colleagues from '../colleagues.json';
-import {colleague, createClass} from "../App";
-
-interface optionGroup {
-    label: string;
-    options: Array<option>
-}
-
-interface option {
-    value: string;
-    label: string;
-}
+import {colleague} from "../App";
+import {normalizeText, optionGroup, options} from "./navBarHelpers";
 
 interface NavBarProps {
     details: colleague;
-    setDetails: React.Dispatch<React.SetStateAction<colleague>>;
+    onColleagueChange: (value:string) => void;
 }
 
-const NavBar = ({details, setDetails}:NavBarProps) => {
-    const onChange = (value:string) => {
-        const colleague = colleagues.find((colleague) => colleague.id === value);
-        if(colleague){
-            createClass(`.blink${colleague.id} #${colleague.id}`,"animation: hideshow 2s ease infinite; -webkit-animation: hideshow 2s ease infinite;");
-            setDetails({
-                input:colleague.name,
-                name: colleague.name,
-                position: colleague.position,
-                department:colleague.department,
-                pictureUrl:colleague.pictureUrl,
-                location: colleague.location,
-                blinkingItem: `blink${colleague.id}`,
-            });
-        }
-    }
+const onSearch = (input: string, option: optionGroup | undefined) => option ? normalizeText(option.label).indexOf(normalizeText(input)) >= 0 : true;
 
-    const normalizeText = (text:string) => text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-
-    const onSearch = (input: string, option: optionGroup | undefined) => option ? normalizeText(option.label).indexOf(normalizeText(input)) >= 0 : true;
-
-    const options:Array<optionGroup> = [];
-
-    const getColleaguesGroup = (department:string) => {
-        const optionGroup:Array<option> = [];
-
-        colleagues.filter(colleague => colleague.department === department).forEach(colleague =>
-            optionGroup.push({value: colleague.id, label:colleague.name})
-        );
-        return optionGroup;
-    }
-
-    options.push(
-        {
-            label:'Executive Board',
-            options: getColleaguesGroup('Executive Board')
-        },
-        {
-            label:'CEO Staff',
-            options: getColleaguesGroup('CEO Staff')
-        },
-        {
-            label: 'Finance, Accounting & Controlling',
-            options: getColleaguesGroup('Finance, Accounting & Controlling')
-        },
-        {
-            label: 'Human Resources',
-            options: getColleaguesGroup('Human Resources')
-        },
-        {
-            label: 'Internal Services',
-            options: getColleaguesGroup('Internal Services')
-        },
-        {
-            label: 'Sales',
-            options: getColleaguesGroup('Sales')
-        },
-        {
-            label: 'Marketing & Sales Operations',
-            options: getColleaguesGroup('Marketing & Sales Operations')
-        },
-        {
-            label: 'Signalling Engineering',
-            options: getColleaguesGroup('Signalling Engineering')
-        },
-        {
-            label: 'IP Engineering',
-            options: getColleaguesGroup('IP Engineering')
-        },
-        {
-            label: 'ICT Engineering',
-            options: getColleaguesGroup('ICT Engineering')
-        },
-        {
-            label: 'Products',
-            options: getColleaguesGroup('Products')
-        },
-        {
-            label: 'Clearing Operations',
-            options: getColleaguesGroup('Clearing Operations')
-        },
-        {
-            label: 'Clearing Operations - Back Office',
-            options: getColleaguesGroup('Clearing Operations - Back Office')
-        },
-        {
-            label: 'Hubbing Operations',
-            options: getColleaguesGroup('Hubbing Operations')
-        },
-        {
-            label: 'Network Operation Centre',
-            options: getColleaguesGroup('Network Operation Centre')
-        },
-        {
-            label: 'Software Development',
-            options: getColleaguesGroup('Software Development')
-        },
-        {
-            label: 'Service Delivery',
-            options: getColleaguesGroup('Service Delivery')
-        },
-    );
-
+const NavBar = ({details, onColleagueChange}:NavBarProps) => {
     return (
         <Header className={'header'}>
             <Row gutter={5} justify={'space-evenly'}>
@@ -135,7 +25,7 @@ const NavBar = ({details, setDetails}:NavBarProps) => {
                         showSearch
                         placeholder={'Find a colleague...'}
                         optionFilterProp="children"
-                        onChange={onChange}
+                        onChange={onColleagueChange}
                         filterOption={(input, option) => onSearch(input, option )}
                     />
                 </Col>
