@@ -54,6 +54,10 @@ body {
   background-color: rgba(220,0,27,1);
 }
 
+.info-area {
+  padding: 30px 0;
+}
+
 @keyframes hideshow {
   0% { stroke: rgba(220,0,27,1); stroke-width: 2px; fill:rgba(220,0,27,1);  }
   10% { stroke: black; stroke-width: 3px; fill:rgba(0,0,0,1);}

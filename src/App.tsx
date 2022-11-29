@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
 import './App.css';
-import {Layout} from "antd";
+import {Col, Layout, Row} from "antd";
 import {Content} from "antd/lib/layout/layout";
 import {ReactComponent as ComfoneFloorPlanSVG} from './comfone-hq.svg';
 import NavBar from "./NavBar/NavBar";
-import InfoArea from "./InfoArea/InfoArea";
 import colleagues from "./colleagues.json";
+import ColleagueDetails from "./ColleagueDetails/ColleagueDetails";
+import Legend from "./Legend/Legend";
 
 export interface colleague {
     input: string | undefined;
@@ -17,7 +18,7 @@ export interface colleague {
     blinkingItem: string;
 }
 
-export const createCSSClass = (name:string,rules:string) => {
+const createCSSClass = (name:string,rules:string) => {
     const style = document.createElement('style');
     document.getElementsByTagName('head')[0].appendChild(style);
     if(style.sheet){
@@ -71,7 +72,14 @@ const App = () =>{
             <NavBar details={details} onColleagueChange={onColleagueChange}/>
             <Content className={'container'}>
                 <ComfoneFloorPlanSVG className={details.blinkingItem}/>
-                <InfoArea details={details} onCommonAreaChange={onCommonAreaChange} />
+                <Row gutter={10} className={'info-area'}>
+                    <Col span={9} >
+                        <ColleagueDetails details={details} />
+                    </Col>
+                    <Col span={15}>
+                        <Legend onCommonAreaChange={onCommonAreaChange}/>
+                    </Col>
+                </Row>
             </Content>
         </Layout>
     );

@@ -28,7 +28,6 @@ const departments = [
     'CEO Staff',
     'Finance, Accounting & Controlling',
     'Human Resources',
-    'Internal Services',
     'Sales',
     'Marketing & Sales Operations',
     'Signalling Engineering',
