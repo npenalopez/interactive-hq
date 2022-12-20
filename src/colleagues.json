@@ -180,7 +180,7 @@
     "name": "Mario Ortega Perez",
     "position": "Sales Operations",
     "department": "Marketing & Sales Operations",
-    "pictureUrl": "/pics/marketing-sales-operation/mario-ortega.png",
+    "pictureUrl": "/pics/marketing-sales-operation/mario-ortega.jpg",
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
@@ -333,6 +333,14 @@
     "position": "Apprentice ICT",
     "department": "ICT Engineering",
     "pictureUrl": "/pics/ict-engineering/sven-abegglen.jpg",
+    "location": "Mingerstrasse 12, 3014 Bern"
+  },
+  {
+    "id": "tb",
+    "name": "Thomas Bärtschi",
+    "position": "System Engineer",
+    "department": "ICT Engineering",
+    "pictureUrl": "/pics/ict-engineering/thomas-bartschi.jpg",
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
@@ -823,15 +831,6 @@
     "pictureUrl": "/pics/clearing-operations-backoffice/suzana-zakman.jpg",
     "location": "Zagreb, Croatia"
   },
-
-  {
-    "id": "spr",
-    "name": "Shayal Prasad",
-    "position": "Back Office Executive",
-    "department": "Clearing Operations - Back Office",
-    "pictureUrl": "/pics/clearing-operations-backoffice/shayal-prasad.jpg",
-    "location": ""
-  },
   {
     "id": "sjm",
     "name": "Sylvia Junqueira de Melo",
@@ -933,7 +932,7 @@
     "name": "Luis J. Forteza",
     "position": "Sales Director North America and Caribbean",
     "department": "Sales",
-    "pictureUrl": "/pics/sales/luis-fortenza.jpg",
+    "pictureUrl": "/pics/sales/luis-forteza.jpg",
     "location": "Tampa, USA"
   },
   {
@@ -941,7 +940,7 @@
     "name": "Randy Petterson",
     "position": "Sales Director North America and Caribbean",
     "department": "Sales",
-    "pictureUrl": "/pics/sales/randy-petterson.png",
+    "pictureUrl": "/pics/sales/randy-petterson.jpg",
     "location": "Orlando, USA"
   },
   {
