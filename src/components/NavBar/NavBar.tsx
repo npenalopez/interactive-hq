@@ -1,9 +1,9 @@
 import {Col, Row, Select} from "antd";
 import {Header} from "antd/lib/layout/layout";
-import Logo from '../img/logo.png';
+import Logo from '../../images/logo.png';
 import React from "react";
 import './NavBar.css';
-import {colleague} from "../App";
+import {colleague} from "../../App";
 import {normalizeText, optionGroup, options} from "./navBarHelpers";
 
 interface NavBarProps {

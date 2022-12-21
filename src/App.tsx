@@ -2,11 +2,11 @@ import React, {useState} from 'react';
 import './App.css';
 import {Col, Layout, Row} from "antd";
 import {Content} from "antd/lib/layout/layout";
-import {ReactComponent as ComfoneFloorPlanSVG} from './comfone-hq.svg';
-import NavBar from "./NavBar/NavBar";
-import colleagues from "./colleagues.json";
-import ColleagueDetails from "./ColleagueDetails/ColleagueDetails";
-import Legend from "./Legend/Legend";
+import {ReactComponent as ComfoneFloorPlanSVG} from './images/comfone-hq.svg';
+import NavBar from "./components/NavBar/NavBar";
+import colleagues from "./data/colleagues.json";
+import ColleagueDetails from "./components/ColleagueDetails/ColleagueDetails";
+import Legend from "./components/Legend/Legend";
 
 export interface colleague {
     input: string | undefined;

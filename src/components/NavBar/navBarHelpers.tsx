@@ -1,4 +1,4 @@
-import colleagues from "../colleagues.json";
+import colleagues from "../../data/colleagues.json";
 
 export interface option {
     value: string;

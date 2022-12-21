@@ -1,0 +1,81 @@
+[
+  {
+    "cssClass": "americas",
+    "pathId": "path4304",
+    "name": "Americas",
+    "type": "Meeting room"
+  },
+  {
+    "cssClass": "europe",
+    "pathId": "path20178",
+    "name": "Europe",
+    "type": "Meeting room"
+  },
+  {
+    "cssClass": "africa",
+    "pathId": "path4220",
+    "name": "Africa",
+    "type": "Meeting room"
+  },
+  {
+    "cssClass": "antarctica",
+    "pathId": "path9670",
+    "name": "Antarctica",
+    "type": "Meeting room"
+  },
+  {
+    "cssClass": "asia",
+    "pathId": "path3294",
+    "name": "Asia",
+    "type": "Meeting room"
+  },
+  {
+    "cssClass": "australia",
+    "pathId": "path9672",
+    "name": "Australia",
+    "type": "Meeting room"
+  },
+  {
+    "cssClass": "multi",
+    "pathId": "path87852",
+    "name": "Multipurpose room",
+    "type": "Meeting room"
+  },
+  {
+    "cssClass": "video",
+    "pathId": "path4222",
+    "name": "Video room",
+    "type": "Others"
+  },
+  {
+    "cssClass": "multi",
+    "pathId": "path4324",
+    "name": "Facility room",
+    "type": "Others"
+  },
+  {
+    "cssClass": "multi",
+    "pathId": "path4306",
+    "name": "Storage room",
+    "type": "Others"
+  },
+  {
+    "cssClass": "red",
+    "pathId": "path4390",
+    "name": "HR meeting",
+    "type": "Others"
+  },
+  {
+    "cssClass": "red",
+    "pathId": "path4416",
+    "name": "HR Finance archive",
+    "type": "Others"
+  },
+  {
+    "cssClass": "red",
+    "pathId": "path4346",
+    "name": "ICT archive",
+    "type": "Others"
+  }
+
+]
