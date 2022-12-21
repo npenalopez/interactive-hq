@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/interactive-hq/static/css/main.baeeccd8.css",
-    "main.js": "/interactive-hq/static/js/main.c55bb564.js",
+    "main.css": "/interactive-hq/static/css/main.155ceb84.css",
+    "main.js": "/interactive-hq/static/js/main.5b790f92.js",
     "static/media/comfone-hq.svg": "/interactive-hq/static/media/comfone-hq.171fb249f8f0f583e0abcbe5bc6343fa.svg",
     "index.html": "/interactive-hq/index.html",
-    "main.baeeccd8.css.map": "/interactive-hq/static/css/main.baeeccd8.css.map",
-    "main.c55bb564.js.map": "/interactive-hq/static/js/main.c55bb564.js.map"
+    "main.155ceb84.css.map": "/interactive-hq/static/css/main.155ceb84.css.map",
+    "main.5b790f92.js.map": "/interactive-hq/static/js/main.5b790f92.js.map"
   },
   "entrypoints": [
-    "static/css/main.baeeccd8.css",
-    "static/js/main.c55bb564.js"
+    "static/css/main.155ceb84.css",
+    "static/js/main.5b790f92.js"
   ]
 }
