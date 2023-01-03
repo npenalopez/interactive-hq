@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import {Col, Layout, Row} from "antd";
 import {Content} from "antd/lib/layout/layout";
-import {ReactComponent as ComfoneFloorPlanSVG} from './images/comfone-hq.svg';
+import {ReactComponent as ComfoneFloorPlanSVG} from './images/comfone-hq-lite.svg';
 import NavBar from "./components/NavBar/NavBar";
 import colleagues from "./data/colleagues.json";
 import ColleagueDetails from "./components/ColleagueDetails/ColleagueDetails";
