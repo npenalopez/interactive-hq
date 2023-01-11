@@ -40,7 +40,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id":"path60144",
+    "id":"path60148",
     "name": "Michael Zulauf",
     "position": "General Counsel",
     "department": "CEO Staff",
@@ -48,7 +48,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path59792",
+    "id": "path59796",
     "name": "Markus Bigler",
     "position": "Senior Product Manager",
     "department": "CEO Staff",
@@ -64,7 +64,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id":"path59408",
+    "id":"path59412",
     "name": "Elisa Dauvé",
     "position": "Financial Services Assistant",
     "department": "Finance, Accounting & Controlling",
@@ -72,7 +72,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id":"path59056",
+    "id":"path59060",
     "name": "Daniel Mader",
     "position": "Director Revenue Assurance",
     "department": "Finance, Accounting & Controlling",
@@ -80,7 +80,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id":"path61616",
+    "id":"path61620",
     "name": "Silvia Wenger",
     "position": "Accountant / Controller",
     "department": "Finance, Accounting & Controlling",
@@ -88,7 +88,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id":"path61264",
+    "id":"path61268",
     "name": "Maggie Boger",
     "position": "Financial Administrator",
     "department": "Finance, Accounting & Controlling",
@@ -104,7 +104,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path5240",
+    "id": "path5244",
     "name": "Ruth Schürch",
     "position": "HR Specialist",
     "department": "Human Resources",
@@ -112,7 +112,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path65296",
+    "id": "path65300",
     "name": "Martin Solenthaler",
     "position": "Key Account Manager",
     "department": "Sales",
@@ -128,7 +128,7 @@
     "location": "Bangkok, Thailand"
   },
   {
-    "id": "path57584",
+    "id": "path57588",
     "name": "Rodney Gaines",
     "position": "VP Sales Western Europe",
     "department": "Sales",
@@ -136,7 +136,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path57936",
+    "id": "path57940",
     "name": "Jeannette Gerard",
     "position": "Sales Director Western Europe",
     "department": "Sales",
@@ -144,7 +144,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path64944",
+    "id": "path64948",
     "name": "Giovanni Russiniello",
     "position": "VP Sales Africa and Middle East",
     "department": "Sales",
@@ -152,7 +152,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path66416",
+    "id": "path66420",
     "name": "Iryna Bernadska",
     "position": "VP Sales Eastern and Central Europe",
     "department": "Sales",
@@ -160,7 +160,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path66768",
+    "id": "path66772",
     "name": "Dmitriy Brussintsov",
     "position": "Sales Director Eastern Europe and Central Asia",
     "department": "Sales",
@@ -168,7 +168,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path62016",
+    "id": "path62020",
     "name": "Sandrine Ayer",
     "position": "Head of Marketing & Sales Operations",
     "department": "Marketing & Sales Operations",
@@ -177,14 +177,14 @@
   },
   {
     "id": "path63092",
-    "name": "Mario Ortega Perez",
-    "position": "Sales Operations",
+    "name": "Ana Pinheiro",
+    "position": "Sales Operations and Marketing Assistant",
     "department": "Marketing & Sales Operations",
-    "pictureUrl": "/pics/marketing-sales-operation/mario-ortega.jpg",
+    "pictureUrl": "/pics/marketing-sales-operation/ana-pinheiro.jpg",
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path62736",
+    "id": "path62740",
     "name": "Hattie Boggis",
     "position": "Marketing Coordinator",
     "department": "Marketing & Sales Operations",
@@ -192,7 +192,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path48676",
+    "id": "path48680",
     "name": "Piotr Szymonski",
     "position": "Signalling Routing & Quality Director",
     "department": "Signalling Engineering",
@@ -200,7 +200,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path48324",
+    "id": "path48328",
     "name": "Philippe Bulliard",
     "position": "Senior Operations Engineer",
     "department": "Signalling Engineering",
@@ -208,7 +208,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path47604",
+    "id": "path47608",
     "name": "Janusz Sadownik",
     "position": "Senior Operations Engineer",
     "department": "Signalling Engineering",
@@ -216,7 +216,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path49796",
+    "id": "path49800",
     "name": "Leonardo Arraez",
     "position": "Senior Operations Engineer",
     "department": "Signalling Engineering",
@@ -224,7 +224,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path49076",
+    "id": "path49080",
     "name": "Antonio Ros",
     "position": "Senior Operations Engineer",
     "department": "Signalling Engineering",
@@ -232,15 +232,15 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path51268",
-    "name": "Martin Hruby",
-    "position": "Head of IP Engineering",
+    "id": "path51272",
+    "name": "Arun Mathew Kampadathil",
+    "position": "Junior IP Engineer",
     "department": "IP Engineering",
-    "pictureUrl": "/pics/ip-engineering/martin-hruby.jpg",
+    "pictureUrl": "/pics/ip-engineering/arun-mathew.jpg",
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path50548",
+    "id": "path50552",
     "name": "Xavier Duran",
     "position": "Senior Operations Engineer",
     "department": "IP Engineering",
@@ -248,7 +248,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path51620",
+    "id": "path51624",
     "name": "Marcel Finger",
     "position": "Senior Operations Engineer",
     "department": "IP Engineering",
@@ -256,7 +256,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path50900",
+    "id": "path50904",
     "name": "Thilan Ekanayake",
     "position": "Senior Operations Engineer",
     "department": "IP Engineering",
@@ -264,7 +264,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path52740",
+    "id": "path52744",
     "name": "Adilson Gonçalves",
     "position": "Senior Operations Engineer",
     "department": "IP Engineering",
@@ -272,7 +272,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path56036",
+    "id": "path56040",
     "name": "Sergej Pypin",
     "position": "Head of ICT-OP Systems",
     "department": "ICT Engineering",
@@ -280,7 +280,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path54212",
+    "id": "path54216",
     "name": "Urs Schmid",
     "position": "ICT-System Engineer",
     "department": "ICT Engineering",
@@ -288,7 +288,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path53092",
+    "id": "path53096",
     "name": "Alessandro Catale",
     "position": "CI/CD and Data Engineer",
     "department": "ICT Engineering",
@@ -296,7 +296,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path54964",
+    "id": "path54968",
     "name": "Dany Tarabey",
     "position": "Junior ICT System Administrator",
     "department": "ICT Engineering",
@@ -320,7 +320,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path52372",
+    "id": "path52376",
     "name": "Reto Botta",
     "position": "System Engineer Virtual Infrastructure",
     "department": "ICT Engineering",
@@ -328,7 +328,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path53844",
+    "id": "path53848",
     "name": "Sven Abegglen",
     "position": "Apprentice ICT",
     "department": "ICT Engineering",
@@ -344,7 +344,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path40870",
+    "id": "path40874",
     "name": "Mauro Mele",
     "position": "Director Clearing Services",
     "department": "Products",
@@ -352,7 +352,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path40518",
+    "id": "path40522",
     "name": "Antonia Gabler",
     "position": "Clearing Services Client Manager",
     "department": "Products",
@@ -360,7 +360,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path37206",
+    "id": "path37210",
     "name": "Trevor Kandasamy",
     "position": "IPX Service Manager",
     "department": "Products",
@@ -368,7 +368,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path36854",
+    "id": "path36858",
     "name": "Derek Moser",
     "position": "VP Business Development",
     "department": "Products",
@@ -376,15 +376,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path37574",
-    "name": "Joanna Lawniczek Vulliens",
-    "position": "Senior Product Manager",
-    "department": "Products",
-    "pictureUrl": "/pics/products/joanna-lawniczek.jpg",
-    "location": "Mingerstrasse 12, 3014 Bern"
-  },
-  {
-    "id": "path37926",
+    "id": "path37930",
     "name": "Pedro Sebastião",
     "position": "Director Hubbing Services",
     "department": "Products",
@@ -392,7 +384,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path39046",
+    "id": "path68924",
     "name": "Florian Hulliger",
     "position": "Service Manager Pulse",
     "department": "Products",
@@ -408,7 +400,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path38678",
+    "id": "path38682",
     "name": "Joaquin Sari Kauzal",
     "position": "Big Data Analytics Specialist",
     "department": "Products",
@@ -416,7 +408,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path46406",
+    "id": "path46410",
     "name": "Helena Bertovic",
     "position": "Head of Clearing Operations",
     "department": "Clearing Operations",
@@ -424,7 +416,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path44934",
+    "id": "path44938",
     "name": "Daniel Zuppinger",
     "position": "Senior Business and Data Analyst",
     "department": "Clearing Operations",
@@ -432,7 +424,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path41990",
+    "id": "path41994",
     "name": "Bervely Kaufmann",
     "position": "FC Manager",
     "department": "Clearing Operations",
@@ -448,7 +440,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path42342",
+    "id": "path42346",
     "name": "Kateryna Okhrushchak",
     "position": "FC & Implementation Manager",
     "department": "Clearing Operations",
@@ -464,7 +456,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path46758",
+    "id": "path46762",
     "name": "Mirela Damjanovic",
     "position": "FC & Implementation Manager",
     "department": "Clearing Operations",
@@ -472,7 +464,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path41270",
+    "id": "path41274",
     "name": "Tiina Haarala",
     "position": "FC Coordinator",
     "department": "Clearing Operations",
@@ -480,7 +472,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path43814",
+    "id": "path43818",
     "name": "Elizaveta Blaser",
     "position": "Clearing Coordinator",
     "department": "Clearing Operations",
@@ -496,7 +488,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path43094",
+    "id": "path43098",
     "name": "Carmen Draghici",
     "position": "Clearing Coordinator",
     "department": "Clearing Operations",
@@ -504,7 +496,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path45686",
+    "id": "path45690",
     "name": "Bosko Mihajlovic",
     "position": "FC & Implementation Manager / Back Office Team Leader",
     "department": "Clearing Operations - Back Office",
@@ -512,7 +504,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path44566",
+    "id": "path44570",
     "name": "Fiona McLeod",
     "position": "Back Office Executive",
     "department": "Clearing Operations - Back Office",
@@ -520,7 +512,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path44214",
+    "id": "path44218",
     "name": "Ruxandra Kekedi",
     "position": "Back Office Executive",
     "department": "Clearing Operations - Back Office",
@@ -536,7 +528,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path36102",
+    "id": "path36106",
     "name": "Marcondes Lenuzza",
     "position": "Head of Hubbing Operations",
     "department": "Hubbing Operations",
@@ -544,7 +536,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path36454",
+    "id": "path36458",
     "name": "Maja Queiroz",
     "position": "Roaming Manager",
     "department": "Hubbing Operations",
@@ -552,7 +544,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path35382",
+    "id": "path35386",
     "name": "Katherine Buschang",
     "position": "Roaming Manager",
     "department": "Hubbing Operations",
@@ -560,7 +552,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path35734",
+    "id": "path35738",
     "name": "Yulia Vollmar",
     "position": "Roaming Manager",
     "department": "Hubbing Operations",
@@ -568,7 +560,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path34630",
+    "id": "path34634",
     "name": "Florian Bossert",
     "position": "Roaming Manager",
     "department": "Hubbing Operations",
@@ -576,7 +568,15 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path33510",
+    "id": "path33914",
+    "name": "Mario Ortega Perez",
+    "position": "Roaming Coordinator",
+    "department": "Hubbing Operations",
+    "pictureUrl": "/pics/hubbing-operations/mario-ortega.jpg",
+    "location": "Mingerstrasse 12, 3014 Bern"
+  },
+  {
+    "id": "path33514",
     "name": "Pedro da Silva",
     "position": "IREG Engineer",
     "department": "Network Operation Centre",
@@ -584,19 +584,11 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path33158",
+    "id": "path33162",
     "name": "Regina Oertli",
     "position": "IPX Services Administrator",
     "department": "Network Operation Centre",
     "pictureUrl": "/pics/network-operation-centre/regina-oertli.jpg",
-    "location": "Mingerstrasse 12, 3014 Bern"
-  },
-  {
-    "id": "path32794",
-    "name": "Carlos Miranda",
-    "position": "NOC Engineer",
-    "department": "Network Operation Centre",
-    "pictureUrl": "/pics/network-operation-centre/carlos-miranda.jpg",
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
@@ -605,10 +597,10 @@
     "position": "NOC Engineer",
     "department": "Network Operation Centre",
     "pictureUrl": "/pics/network-operation-centre/eduardo-silva.jpg",
-    "location": "Mingerstrasse 12, 3014 Bern"
+    "location": "São Paulo, Brazil"
   },
   {
-    "id": "path32438",
+    "id": "path32442",
     "name": "Karin Gerber",
     "position": "IPX Services Administrator",
     "department": "Network Operation Centre",
@@ -616,7 +608,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path71112",
+    "id": "path71116",
     "name": "Hermann Jaun",
     "position": "Chief Architect Software Development",
     "department": "Software Development",
@@ -624,7 +616,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path73028",
+    "id": "path73032",
     "name": "Bernd Bach",
     "position": "Senior Development Engineer",
     "department": "Software Development",
@@ -632,7 +624,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path76800",
+    "id": "path76804",
     "name": "Livio Righetti",
     "position": "Senior Development Engineer",
     "department": "Software Development",
@@ -640,7 +632,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path76080",
+    "id": "path76084",
     "name": "Jaya Varghese",
     "position": "Senior Java Engineer",
     "department": "Software Development",
@@ -648,7 +640,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path69640",
+    "id": "path69644",
     "name": "Andreas Kessler",
     "position": "Senior Development Engineer",
     "department": "Software Development",
@@ -656,7 +648,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path73764",
+    "id": "path73768",
     "name": "Nancy Ortiz",
     "position": "Senior Development Engineer",
     "department": "Software Development",
@@ -672,7 +664,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path71464",
+    "id": "path71468",
     "name": "Renze Struiksma",
     "position": "Senior Data Scientist",
     "department": "Software Development",
@@ -680,7 +672,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path69992",
+    "id": "path69996",
     "name": "Christof Flück",
     "position": "Software Developer",
     "department": "Software Development",
@@ -688,7 +680,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path71956",
+    "id": "path71960",
     "name": "Jennifer Henzen",
     "position": "Web Developer",
     "department": "Software Development",
@@ -704,7 +696,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path72308",
+    "id": "path72312",
     "name": "Anamaria Parvu",
     "position": "Fullstack Developer",
     "department": "Software Development",
@@ -720,7 +712,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path68168",
+    "id": "path68172",
     "name": "Hung Nguyen",
     "position": "Senior Software Developer",
     "department": "Software Development",
@@ -728,7 +720,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path68520",
+    "id": "path68524",
     "name": "Nestor Peña Lopez",
     "position": "Web Developer",
     "department": "Software Development",
@@ -736,7 +728,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path69272",
+    "id": "path69276",
     "name": "Amir Mohamed",
     "position": "Apprentice",
     "department": "Software Development",
@@ -744,7 +736,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path75728",
+    "id": "path75732",
     "name": "Dimitrios Menounos",
     "position": "Software Developer",
     "department": "Software Development",
@@ -752,7 +744,15 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path74884",
+    "id": "path67452",
+    "name": "Dumitru Preguza",
+    "position": "Software Developer",
+    "department": "Software Development",
+    "pictureUrl": "/pics/software-development/dumitru-preguza.jpg",
+    "location": "Mingerstrasse 12, 3014 Bern"
+  },
+  {
+    "id": "path74888",
     "name": "Evgeny Solovei",
     "position": "Head of Service Delivery",
     "department": "Service Delivery",
@@ -760,7 +760,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path75236",
+    "id": "path75240",
     "name": "Maya Tchernycheva",
     "position": "Service Delivery Manager",
     "department": "Service Delivery",
@@ -768,7 +768,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path70744",
+    "id": "path70748",
     "name": "Amelie Nordström",
     "position": "Service Delivery Manager",
     "department": "Service Delivery",
@@ -776,7 +776,7 @@
     "location": "Mingerstrasse 12, 3014 Bern"
   },
   {
-    "id": "path74168",
+    "id": "ol",
     "name": "Olga Legoshina",
     "position": "Service Delivery Manager",
     "department": "Service Delivery",
