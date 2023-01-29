@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
 import {Col, Layout, Row} from "antd";
-import {Content} from "antd/lib/layout/layout";
 import {ReactComponent as ComfoneFloorPlanSVG} from './images/comfone-hq-lite.svg';
 import NavBar from "./components/NavBar/NavBar";
 import colleagues from "./data/colleagues.json";
@@ -70,17 +69,15 @@ const App = () =>{
     return (
         <Layout className={'layout'}>
             <NavBar details={details} onColleagueChange={onColleagueChange}/>
-            <Content className={'container'}>
+            <Row gutter={10} className={'info-area'}>
                 <ComfoneFloorPlanSVG className={details.blinkingItem}/>
-                <Row gutter={10} className={'info-area'}>
-                    <Col span={9} >
-                        <ColleagueDetails details={details} />
-                    </Col>
-                    <Col span={15}>
-                        <Legend onCommonAreaChange={onCommonAreaChange}/>
-                    </Col>
-                </Row>
-            </Content>
+                <Col span={9} className={'container'} >
+                    <ColleagueDetails details={details} />
+                </Col>
+                <Col span={15} className={'container'}>
+                    <Legend onCommonAreaChange={onCommonAreaChange}/>
+                </Col>
+            </Row>
         </Layout>
     );
 }

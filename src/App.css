@@ -47,7 +47,8 @@ body {
 }
 
 .container {
-  padding:100px 20px;
+  padding: 30px 0;
+
 }
 
 .bg-comfone {
@@ -55,7 +56,7 @@ body {
 }
 
 .info-area {
-  padding: 30px 0;
+  padding:100px 20px;
 }
 
 @keyframes hideshow {
